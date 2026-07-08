@@ -1,0 +1,23 @@
+{
+  "headers": [
+    {
+      "source": "/xss.png",
+      "headers": [
+        { "key": "Content-Type", "value": "image/svg+xml" },
+        { "key": "Access-Control-Allow-Origin", "value": "*" }
+      ]
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/ssrf",
+      "destination": "http://169.254.169.254/latest/meta-data/",
+      "permanent": false
+    },
+    {
+      "source": "/ssrf-local",
+      "destination": "http://127.0.0.1:80/",
+      "permanent": false
+    }
+  ]
+}
