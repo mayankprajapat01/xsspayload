@@ -1,7 +1,7 @@
 {
   "headers": [
     {
-      "source": "/xss.png",
+      "source": "/mxss.png",
       "headers": [
         { "key": "Content-Type", "value": "image/svg+xml" },
         { "key": "Access-Control-Allow-Origin", "value": "*" }
